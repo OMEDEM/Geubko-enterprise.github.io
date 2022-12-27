@@ -1,0 +1,196 @@
+<doctype html>
+    <html>
+<style>
+    .{
+      padding:0;
+      margin:0;
+      font-family: cursive;
+      box-sizing: border-box;
+      }
+        .hero{
+            height: 100vh;
+            width: 100%;
+            background-color: #191919;
+            background-size: cover;
+            background-position: center;
+        }
+        nav{
+            display:flex;
+            align-items:center;
+            justify-content:space-between; 
+            padding-top: 45px;
+            padding-left:8%;
+            padding-right: 8%;
+            
+        }
+        .logo{
+            color: white;
+            font-size: 35px;
+            letter-spacing:1px;
+            cursor: pointer; 
+        }
+        span{
+            color: #f9004d;
+        }
+        nav ul li{
+            list-style-type:none;
+            display: inline-block;
+            padding: 10px 25px;
+        }
+        nav ul li a{
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: capitalize;
+        }
+        nav ul li a:hover{
+            color: #f9004d;
+            transition:.4s; 
+        }
+        .about{
+            width: 100%;
+            padding: 100px 0px;
+            background-color: #191919;
+        }
+        .about img{
+            height: auto;
+            width: 430px;
+        }
+        .about-text{
+            width: 550px;
+        }
+        .main{
+            width: 1130px;
+            max-width: 95%;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content:space-around;
+        }
+    .about-text h2{
+        color: white;
+        font-size: 75px;
+        text-transform: capitalize;
+        margin-bottom: 20px;
+    
+    }
+        .about-text h5{
+            color: white;
+            letter-spacing: 2px;
+            font-size: 22px;
+            margin-bottom:  25px;
+            text-transform: capitalize;
+        }
+        .about-text p{
+            color: #fcfc;
+            letter-spacing: 1px;
+            line-height: 28px;
+            font-size: 18px;
+            margin-bottom: 45px;
+        }
+        button{
+            background-color: #f9004d;
+            color: white;
+            text-decoration: none;
+            border: 2px solid transparent;
+            font-weight: bold; 
+            padding: 13px 30px; 
+            border-radius: 30px;
+            transition: 4s;
+        }
+        button:hover{
+            background-color: transparent;
+            border: 2px solid #f9004d;
+            cursor: pointer;
+        }
+        
+        footer{
+            position: relative;
+            width: 100%;
+            height: 400px;
+            background-color: #101010;
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content:center;
+        }
+        footer p:nth-child(1){
+            font-size: 30px;
+            color: white;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        footer p:nth-child(2){
+            color: white;
+            font-size: 17px;
+            width: 500px;
+            text-align: center;
+            line-height:26px;
+        }
+        .social{
+            display: flex;
+        }
+        .social a{
+           width: 45px;
+            height:45px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #f9004d;
+            margin: 22px 10px;
+            border-radius: 50%;
+            margin: 22px 10px;
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        .social a:hover{
+            transform: scale(1.33);
+            transition: 3s;
+        }
+        .end{
+            position: absolute;
+            color: #f9004d;
+            bottom: 35px;
+            font-size: 14px;
+        }
+    </style>
+<body>
+    <div class="hero">
+        <nav>
+            <h2 class="logo">Geubkon<span>Enterprise</span></h2>         
+            <ul>
+                <li class="active"><a href="page.html">Home</a></li>
+                <li><a href="ab.html">About us</a></li>
+                <li><a href="service.html">Our product</a></li>
+                <li><a href="#">Our gallery</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        
+  
+     <section class="about">
+         <div class="main">
+             <img src="plumbing4.jpeg">
+             <div class="about-text">
+                 <h2>About me</h2>
+                 <h5>We supply all kind of <span>plumbing material</span></h5>
+                 <p>We are Geubko Enterprise, supplers of all kind of plumbing material,we give you unique and quality product that can last for you as long as you live</p>
+                 <button type="button">let talk</button>
+             </div>
+         </div>
+        </section>
+
+
+<footer>
+<p>Geubko Enterprise</p>
+    <p>for more enquiries visit us on our social media handle</p>
+    <div class="social">
+    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+    <p class="end">CopyRight By Geubko Enterprise</p>
+</footer>
+        </body>
+</html>
+   
